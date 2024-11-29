@@ -1,0 +1,195 @@
+/* Reset básico para margens e padding */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Configuração para links */
+a {
+    text-decoration: none;
+}
+
+/* Remover marcadores de listas */
+ul, ol, li {
+    list-style: none;
+}
+
+/* Habilitar rolagem suave na página */
+html, body {
+    scroll-behavior: smooth;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo básico do header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0174DE;
+    padding: 16px;
+    z-index: 10;
+}
+
+.barramenu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Centralizar os itens no menu */
+    padding: 0;
+}
+
+header nav ul {
+    display: flex;
+    width: 100%;
+    gap: 180px;
+    margin-left: 35vh; /* Adiciona um deslocamento para a esquerda */
+    
+}
+
+header nav a {
+    color: white;
+    padding: 8px 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+header nav a:hover {
+    background-color: tomato;
+}
+
+/* Estilo básico para as seções */
+.grupo {
+    height: 100vh;
+    padding-top: 80px; /* Para dar espaço abaixo do header fixo */
+    position: relative;
+    padding: 20px;
+}
+
+/* Seções específicas com fundo colorido */
+#sociologia {
+    background-color: #ffffff;
+}
+#sociologia .barralateral{
+    margin-right: 85%;
+    width: 15%;
+    height: 100%;
+    background-color: #0174DE;
+    position: absolute;
+    
+
+}
+
+#sociologia .container1{
+
+    margin-top: -40vh;
+    margin-right: 88vh;
+    width: 35%;
+    height: 22%;
+    background: linear-gradient(to top, #a2c7ff, #0174DE);
+    position: absolute;
+    border-radius: 30px;
+
+}
+
+#sociologia .container1 h1{
+    margin-top: -9vh;
+    font-size: 11.5mm;
+    margin-left: 3vh;
+    color: black;
+}
+
+#sociologia .container1 h3{
+    position: absolute;
+    font-size: 7mm;
+    margin-left: 3vh;
+    max-width: 45vh;
+    margin-top: 7vh;
+    color: black;
+}
+
+#sociologia .container1 img{
+    width: 30vh;
+    height: 25vh;
+    position: absolute;
+    margin-left: 65%;
+    margin-top: -3vh;
+}
+#sociologia .container2{
+    
+    margin-top: 40vh;
+    margin-right: 88vh;
+    width: 35%;
+    height: 22%;
+    background: linear-gradient(to top, #a2c7ff, #0174DE);
+    position: absolute;
+    border-radius: 30px;
+
+}
+#sociologia .container2 h3{
+    margin-top: 1vh;
+    font-size: 11.5mm;
+    margin-left: 3vh;
+    color: black;
+    max-width: 60vh;
+}
+#sociologia .container2 h4{
+    position: absolute;
+    font-size: 6.6mm;
+    margin-left: 3vh;
+    max-width: 70vh;
+    margin-top: 3vh;
+    color: black;
+}
+
+#teoricos {
+    background-color: rgb(5, 105, 0); /* Verde */
+}
+
+#temas {
+    background-color: rgb(2, 19, 70); /* Azul escuro */
+}
+
+#historia {
+    background-color: rgb(138, 115, 1); /* Amarelo queimado */
+}
+
+#importancia {
+    background-color: rgb(37, 0, 60); /* Roxo escuro */
+}
+
+/* Configuração para os textos dentro das seções */
+h1 {
+    position: absolute;
+    top: 10vh;
+    color: white;
+    font-size: 5rem;
+    margin-right: 80vh; /* Espaçamento à direita */
+}
+
+p {
+    position: absolute;
+    left: 10%;
+    color: white;
+    font-size: 2rem;
+    width: 20%;
+}
+
+/* Estilo para as imagens nas seções */
+img {
+    width: 90vh;
+    height: 70vh;
+    margin-right: 20px;
+}
+
+/* Flexbox para alinhar imagens e textos */
+#sociologia, #teoricos, #temas, #historia, #importancia {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+/* Responsividade: ajustes para telas pequenas */
+
