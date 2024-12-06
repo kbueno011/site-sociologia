@@ -37,7 +37,19 @@ header {
     display: flex;
     justify-content: space-between; /* Centralizar os itens no menu */
     padding: 0;
+
 }
+.barramenu img{
+    width: 50px;
+    height: 50px;
+    top: 0;
+}
+
+.barramenu .icons{
+    justify-content: space-between;
+    width: 10%;
+}
+
 
 header nav ul {
     display: flex;
@@ -56,7 +68,7 @@ header nav a {
 }
 
 header nav a:hover {
-    background-color: tomato;
+    background-color: rgb(0, 0, 0);
 }
 
 /* Estilo básico para as seções */
@@ -71,13 +83,27 @@ header nav a:hover {
 #sociologia {
     background-color: #ffffff;
 }
-#sociologia .barralateral{
+#sociologia .barralateral {
     margin-right: 85%;
     width: 15%;
     height: 100%;
     background-color: #0174DE;
     position: absolute;
-    
+    display: flex; /* Adiciona flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+
+}
+
+#sociologia .barralateral img {
+    width: 20vh;
+    height: 20vh;
+    margin-top: 20%;
+    position: absolute;
+}
+#sociologia .barralateral h2 {
+max-width: 400px;
+margin-top: 25vh;
+margin-left: 40px;
 
 }
 
@@ -142,21 +168,264 @@ header nav a:hover {
     margin-top: 3vh;
     color: black;
 }
+#sociologia .container2 img{
+width: 35vh;
+height: 15vh;
+margin-left: 43vh;
+margin-top: -12vh;
+
+
+}
+
 
 #teoricos {
-    background-color: rgb(5, 105, 0); /* Verde */
+    background-color: white /* Verde */
+}
+#teoricos .container1{
+
+    margin-top: -77.9vh;
+    margin-right: 150vh;
+    width: 35%;
+    height: 22%;
+    background-color: 0174DE;
+    position: absolute;
+    border-radius:35px;
+
+}
+#teoricos .container1 h1{
+    margin-top: -2vh;
+    margin-left: 25vh;
+    color: rgb(255, 255, 255);
+
+}
+#teoricos .containerteorico1{
+
+    margin-top: -10vh;
+    margin-right: 50vh;
+    width: 60%;
+    height: 32%;
+    background-color: rgb(224, 224, 224);
+    position: absolute;
+    border-radius: 30px;
+}
+#teoricos .containerteorico2{
+
+    margin-top: 60vh;
+    margin-right: 50vh;
+    width: 60%;
+    height: 32%;
+    background-color: rgb(224, 224, 224);
+    position: absolute;
+    border-radius: 30px;
+}
+#teoricos .containerteorico1 h1{
+    font-size: 50px;
+    margin-top: 16vh;
+    color: black;
+    margin-left: 3vh;
+    position: absolute;
+
+}
+#teoricos .containerteorico1 h2{
+    font-size: 26px;
+    max-width: 90vh;
+    margin-left: 27vh;
+    margin-top: 5vh;
+}
+#teoricos .containerteorico1 img{
+    position: absolute;
+    width: 260px;
+    height: 300px;
+    top: 2vh;
+    border-radius: 30px;
+    margin-left: 2vh;
+    
+}
+#teoricos .containerteorico2 h1{
+    font-size: 40px;
+    margin-top: 16vh;
+    color: black;
+    margin-left: 2vh;
+}
+
+#teoricos .containerteorico2 h2{
+    font-size: 26px;
+    max-width: 90vh;
+    margin-left: 27vh;
+    margin-top: 5vh;
+}
+#teoricos .containerteorico2 img{
+    position: absolute;
+    width: 260px;
+    height: 300px;
+    top: 2vh;
+    border-radius: 30px;
+    margin-left: 2vh;
+    
 }
 
 #temas {
-    background-color: rgb(2, 19, 70); /* Azul escuro */
+    background-color: rgb(255, 255, 255); /* Azul escuro */
 }
+#temas .barralateraltemas{
+    margin-right: -20px;
+    width: 15%;
+    height: 100%;
+    background-color: #0174DE;
+    position: absolute;
+    
+
+}
+#temas .containertemas{
+    top: 0;
+    margin-right: 140vh;
+    width: 35%;
+    height: 22%;
+    background-color: #0174DE;
+    position: absolute;
+    border-radius:35px;
+
+}
+#temas .containertemas h1{
+
+    margin-top: -2vh;
+    margin-left: 25vh;
+    color: rgb(255, 255, 255);
+
+}
+
+
+#temas .topicos {
+    font-size: 1.8rem;      /* Aumenta o tamanho do texto */
+    line-height: 3;       /* Aumenta o espaçamento entre as linhas */
+    max-width: 100%;         /* Limita a largura para manter uma boa leitura */
+    color: black;           /* Cor do texto */
+    margin-right: 70vh;
+    margin-top: 25vh;
+}
+#temas img{
+    width: 40vh;
+    height: 40vh;
+    position: absolute;
+    margin-left: -8vh;
+    margin-top: 60vh;
+}
+
+
 
 #historia {
-    background-color: rgb(138, 115, 1); /* Amarelo queimado */
+    background-color: rgb(255, 255, 255); /* Amarelo queimado */
 }
 
+#historia .containerH1{
+    top: 0;
+    margin-right: 140vh;
+    width: 35%;
+    height: 15%;
+    background-color: #0174DE;
+    position: absolute;
+    border-radius:35px;
+    z-index: 1;
+
+}
+
+#historia .containerH1 h1{
+    margin-top: -5vh;
+    margin-left: 20vh;
+    color: rgb(255, 255, 255);
+}
+
+#historia .containerH2{
+    margin-right: 180vh;
+    width: 12%;
+    height: 100%;
+    background-color: #0174DE;
+    position: absolute;
+
+  
+
+}
+#historia .containerH2 img{
+    justify-content: center;
+    margin-left: 5vh;
+    height: 88vh;
+}
+
+#historia .containerH2 .historicos{
+    width: 30px;
+    height: 10px;
+    
+    
+}
+
+#historia .linhatempo img{
+    display: flex;
+    width: 100vh;
+    height: 90vh;
+    justify-content: center;
+    margin-right: 39vh;
+    margin-top: 0vh;       
+}
+
+
+
+
+
+
+
 #importancia {
-    background-color: rgb(37, 0, 60); /* Roxo escuro */
+    background-color: rgb(255, 255, 255); /* Roxo escuro */
+}
+#importancia .containerimportancia{
+top: 0;
+margin-right:100vh;
+width: 60%;
+height: 20%;
+background-color: #0174DE;
+position: absolute; 
+border-radius:35px;
+}
+
+#importancia .containerimportancia h1{
+    margin-top: -2vh;
+    margin-left: 30vh;
+    color: rgb(255, 255, 255);
+    letter-spacing: 28px;
+
+}
+
+#importancia .container{
+    margin-right: -20px;
+    width: 15%;
+    height: 100%;
+    background-color: #0174DE;
+    position: absolute;
+
+}
+#importancia .container1 {
+    font-size:5mm ;
+    line-height: 2;       /* Aumenta o espaçamento entre as linhas */
+    max-width: 40%;         /* Limita a largura para manter uma boa leitura */
+    color: black;           /* Cor do texto */
+    margin-right: 110vh;
+    margin-top: -10vh;
+    position: absolute;
+}
+#importancia .container2 {
+    font-size: 5mm;
+    line-height: 2;       /* Aumenta o espaçamento entre as linhas */
+    max-width: 40%;         /* Limita a largura para manter uma boa leitura */
+    color: black;           /* Cor do texto */
+    margin-right: 110vh;
+    margin-top: 50vh;
+    position: absolute;
+}
+#importancia img{
+    width: 50vh;
+    height: 30vh;
+    position: absolute;
+    margin-right: 40vh;
+
 }
 
 /* Configuração para os textos dentro das seções */
@@ -177,11 +446,7 @@ p {
 }
 
 /* Estilo para as imagens nas seções */
-img {
-    width: 90vh;
-    height: 70vh;
-    margin-right: 20px;
-}
+
 
 /* Flexbox para alinhar imagens e textos */
 #sociologia, #teoricos, #temas, #historia, #importancia {
@@ -191,5 +456,8 @@ img {
     position: relative;
 }
 
-/* Responsividade: ajustes para telas pequenas */
 
+
+@media (max-width: 375px) {
+    
+}
